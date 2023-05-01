@@ -52,7 +52,7 @@ Criar um microsservico de chat: Next.js (back-end) se comunicando com o Next.js 
 
 ### Como vai funcionar a interacao com sistema?
 
-<img src="./images/flow-gptwhatsapp.png">
+<img src="./doc/images/flow-gptwhatsapp.png">
 
 **Web**
 
@@ -126,7 +126,7 @@ O twillio vai chamar atraves de request Http o microsservico do chat
 
 ## Arquitetura
 
-<img src="./images/CleanArchitecture.jpeg">
+<img src="./doc/images/CleanArchitecture.jpeg">
 
 ### Separando responsabilidade nas camadas
 

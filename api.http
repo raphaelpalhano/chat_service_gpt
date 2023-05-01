@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/hello
+
+###
+POST http://localhost:3000/api/chats
+Content-Type: application/json
+
+{
+   "message": "Hello Brazil"
+}
+
+###
+GET http://localhost:3000/api/chats
+
+###
+@chatId = d6a8af86-8eb7-4cf1-998f-11eeb67d9e79
+
+GET http://localhost:3000/api/chats/{{chatId}}/messages
+
+
+###
+
+POST http://localhost:3000/api/chats/{{chatId}}/messages
+Content-Type:  application/json
+
+{
+    "message": "Voce e um bot?"
+}
